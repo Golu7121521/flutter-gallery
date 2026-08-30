@@ -41,7 +41,7 @@ dependencies:
   image_cropper: ^8.0.2
 
   # Wallpaper
-  wallpaper_manager_flutter: ^0.0.4
+  wallpaper_manager_flutter: ^1.0.1
 
   # Screen brightness / volume gesture control
   screen_brightness: ^1.0.1
