@@ -25,7 +25,6 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version: '3.24.0'
           cache: true
 
       - name: Create android/local.properties
@@ -63,4 +62,3 @@ jobs:
           name: gallery-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
-
