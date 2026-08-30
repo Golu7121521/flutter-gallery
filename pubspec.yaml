@@ -1,0 +1,64 @@
+name: gallery
+description: A feature rich gallery app for photos and videos.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  provider: ^6.1.2
+
+  # Media scanning & gallery access
+  photo_manager: ^3.12.0
+  photo_manager_image_provider: ^2.2.0
+
+  # Local persistence for settings
+  shared_preferences: ^2.3.3
+
+  # Video playback
+  video_player: ^2.9.5
+  wakelock_plus: ^1.2.10
+
+  # Audio playback (e.g. for future audio-note / music-in-gallery support)
+  just_audio: ^0.9.40
+
+  # Image viewing (pinch to zoom)
+  photo_view: ^0.15.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Share
+  share_plus: ^10.0.2
+
+  # Crop
+  image_cropper: ^8.0.2
+
+  # Wallpaper
+  wallpaper_manager_flutter: ^0.0.4
+
+  # Screen brightness / volume gesture control
+  screen_brightness: ^1.0.1
+  volume_controller: ^2.0.7
+
+  # Path utilities
+  path_provider: ^2.1.4
+
+  # Formatting dates
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
