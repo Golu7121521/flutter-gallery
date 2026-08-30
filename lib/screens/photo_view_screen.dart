@@ -78,7 +78,7 @@ class _PhotoViewScreenState extends State<PhotoViewScreen> {
         ],
       );
       if (cropped != null) {
-        await PhotoManager.editor.saveImageWithPath(cropped.path, filename: '${_current.title}_cropped.jpg');
+        await PhotoManager.editor.saveImageWithPath(cropped.path, title: '${_current.title}_cropped.jpg');
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(content: Text('Cropped image saved to gallery')),
